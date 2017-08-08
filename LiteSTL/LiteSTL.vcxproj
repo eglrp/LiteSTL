@@ -111,6 +111,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Src\allocator_test.cpp" />
+    <ClCompile Include="UnitTest\alloc_test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\alloc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
