@@ -215,7 +215,7 @@ namespace LiteSTL {
 	struct allocator<void> {
 	public:
 		typedef void        value_type;
-		typedef             size_t size_type;
+		typedef size_t      size_type;
 		typedef ptrdiff_t   difference_type;
 		typedef void*       pointer;
 		typedef const void* const_pointer;

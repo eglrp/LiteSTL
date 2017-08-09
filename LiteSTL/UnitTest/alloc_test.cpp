@@ -1,4 +1,4 @@
-#include "..\Src\alloc.h"
+#include "..\Src\allocator.h"
 using namespace LiteSTL;
 #include <stdio.h>
 #include <cstdlib>

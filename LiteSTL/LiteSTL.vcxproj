@@ -113,9 +113,13 @@
   <ItemGroup>
     <ClCompile Include="Src\allocator_test.cpp" />
     <ClCompile Include="UnitTest\alloc_test.cpp" />
+    <ClCompile Include="UnitTest\type_traits_test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Src\alloc.h" />
+    <ClInclude Include="Src\allocator.h" />
+    <ClInclude Include="Src\construct.h" />
+    <ClInclude Include="Src\iterator_base.h" />
+    <ClInclude Include="Src\type_traits.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
