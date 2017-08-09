@@ -22,23 +22,24 @@ namespace LiteSTL {
 
 	template <class ForwardIterator> 
 	inline void 
-		destroy_aux(ForwardIterator first, ForwardIterator last, false_type) {
+	destroy_aux(ForwardIterator first, ForwardIterator last, false_type) {
 		for (; first != last; ++first)
 			destroy(&*first);
 	}
+
 	template <class ForwardIterator> 
 	inline void 
-		destroy_aux(ForwardIterator first, ForwardIterator last, true_type) { }
+	destroy_aux(ForwardIterator first, ForwardIterator last, true_type) { }
 
-	template <class ForwardIterator, class T>
+	template <class ForwardIterator, typename T>
 	inline void
-		destroy_dispatch(ForwardIterator first, ForwardIterator last, T*) {
+	destroy_dispatch(ForwardIterator first, ForwardIterator last, T*) {
 		typedef typename type_traits<T>::has_trivial_destructor trivial_destructor;
-		destroy_aux(first, last, trivial_destructor);
+		destroy_aux(first, last, trivial_destructor());
 	}
 
 	template <class ForwardIterator>
-	inline void destroy(ForwordIterator first, ForwardIterator last) {
+	inline void destroy(ForwardIterator first, ForwardIterator last) {
 		destroy_dispatch(first, last, value_type(first));
 	}
 
