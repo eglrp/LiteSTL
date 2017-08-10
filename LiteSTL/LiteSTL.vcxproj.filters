@@ -27,6 +27,9 @@
     <ClCompile Include="UnitTest\construct_test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="UnitTest\iterator_base_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\allocator.h">

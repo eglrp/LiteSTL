@@ -114,6 +114,7 @@
     <ClCompile Include="Src\allocator_test.cpp" />
     <ClCompile Include="UnitTest\alloc_test.cpp" />
     <ClCompile Include="UnitTest\construct_test.cpp" />
+    <ClCompile Include="UnitTest\iterator_base_test.cpp" />
     <ClCompile Include="UnitTest\type_traits_test.cpp" />
   </ItemGroup>
   <ItemGroup>

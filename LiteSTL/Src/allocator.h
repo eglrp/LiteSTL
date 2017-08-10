@@ -5,7 +5,7 @@
 #include <new>
 #include <stddef.h>
 
-namespace LiteSTL {
+namespace STLite {
 	class alloc {
 	private:
 		static const int ALIGN = 8;

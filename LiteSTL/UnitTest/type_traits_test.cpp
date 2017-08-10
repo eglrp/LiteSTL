@@ -1,5 +1,5 @@
 #include "../Src/type_traits.h"
-using namespace LiteSTL;
+using namespace STLite;
 #include <iostream>
 #include <vector>
 

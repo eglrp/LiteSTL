@@ -1,5 +1,5 @@
 #include "..\Src\allocator.h"
-using namespace LiteSTL;
+using namespace STLite;
 #include <stdio.h>
 #include <cstdlib>
 #include <string.h>

@@ -4,7 +4,7 @@
 #include "iterator_base.h"
 #include <new>
 
-namespace LiteSTL {
+namespace STLite {
 	template <typename T1, typename T2>
 	inline void construct(T1* ptr, T2& val) {
 		new((void*)ptr) T1(val);

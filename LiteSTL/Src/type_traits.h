@@ -1,6 +1,6 @@
 #pragma once
 
-namespace LiteSTL {
+namespace STLite {
 	struct true_type {};
 	struct false_type {};
 

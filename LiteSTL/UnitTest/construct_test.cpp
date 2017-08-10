@@ -1,5 +1,5 @@
 #include "../Src/construct.h"
-using namespace LiteSTL;
+using namespace STLite;
 #include <iostream>
 #include <string.h>
 #include <list>
