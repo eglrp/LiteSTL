@@ -44,5 +44,11 @@
     <ClInclude Include="Src\iterator_base.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Src\uninitialized.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\algobase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

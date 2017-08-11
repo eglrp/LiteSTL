@@ -118,10 +118,12 @@
     <ClCompile Include="UnitTest\type_traits_test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Src\algobase.h" />
     <ClInclude Include="Src\allocator.h" />
     <ClInclude Include="Src\construct.h" />
     <ClInclude Include="Src\iterator_base.h" />
     <ClInclude Include="Src\type_traits.h" />
+    <ClInclude Include="Src\uninitialized.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
